@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SYNCHRONIZATION_STREAM", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USING_WAIT_AND_PULSE", "USING_WAIT_AND_PULSE\USING_WAIT_AND_PULSE.csproj", "{B405DC82-8FA9-454E-A1BF-F035D94771D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MUTEX", "MUTEX\MUTEX.csproj", "{BE1CAAA7-29BA-4BED-89AF-BA040115D121}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{B405DC82-8FA9-454E-A1BF-F035D94771D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B405DC82-8FA9-454E-A1BF-F035D94771D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B405DC82-8FA9-454E-A1BF-F035D94771D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE1CAAA7-29BA-4BED-89AF-BA040115D121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE1CAAA7-29BA-4BED-89AF-BA040115D121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE1CAAA7-29BA-4BED-89AF-BA040115D121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE1CAAA7-29BA-4BED-89AF-BA040115D121}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
