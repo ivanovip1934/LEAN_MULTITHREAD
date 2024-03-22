@@ -1,4 +1,6 @@
-﻿#define VARIANT_1
+﻿// Герберт Шилд - с# стр. 864
+
+#define VARIANT_1
 // #define VARIANT_2
 
 using System;
@@ -40,6 +42,11 @@ namespace MUTEX
                 // Получить мьютекс.
                 SharedResource.Mtx.WaitOne();
                 Console.WriteLine(Thrd.Name + " получил мьютекс.");
+                SharedResource.Mtx.ReleaseMutex();
+                Console.WriteLine(Thrd.Name + " освободил мьютекс");
+                // Получить мьютекс 2 раз.
+                SharedResource.Mtx.WaitOne();
+                Console.WriteLine(Thrd.Name + " получил мьютекс 2 раз.");
                 do {
                     Thread.Sleep(500);
                     SharedResource.Count++;
@@ -145,6 +152,7 @@ namespace MUTEX
 
         static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
             // Сконструировать два потока.
             {
                 IncThread mt1 = new IncThread("Инкрементирующий поток", 5);

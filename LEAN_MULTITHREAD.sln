@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USING_WAIT_AND_PULSE", "USI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MUTEX", "MUTEX\MUTEX.csproj", "{BE1CAAA7-29BA-4BED-89AF-BA040115D121}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USING_EVENTS", "USING_EVENTS\USING_EVENTS.csproj", "{94848C10-3E2F-4767-9EC8-070D8A33069B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{BE1CAAA7-29BA-4BED-89AF-BA040115D121}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE1CAAA7-29BA-4BED-89AF-BA040115D121}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE1CAAA7-29BA-4BED-89AF-BA040115D121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94848C10-3E2F-4767-9EC8-070D8A33069B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94848C10-3E2F-4767-9EC8-070D8A33069B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94848C10-3E2F-4767-9EC8-070D8A33069B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94848C10-3E2F-4767-9EC8-070D8A33069B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
